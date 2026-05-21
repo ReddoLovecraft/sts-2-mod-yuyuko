@@ -14,7 +14,7 @@ namespace TH_Yuyuko.Scripts.Cards
 	[Pool(typeof(CurseCardPool))]
 	public sealed class Recall : YuyukoCardModel
 	{
-		public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+		public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable, CardKeyword.Eternal];
 		public override bool CanBeGeneratedInCombat => false;
 		public override int MaxUpgradeLevel => 0;
 		protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromKeyword(CardKeyword.Ethereal)];

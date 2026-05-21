@@ -1,12 +1,13 @@
 {
-  "TH_SAKUYA-RED_TEA.description": "回复[blue]6[/blue]点生命。\n获得{Energy:energyIcons()}并抽[blue]1[/blue]张牌。",
-  "TH_SAKUYA-RED_TEA.title": "红魔馆红茶",
-  "TH_SAKUYA-RED_KING_POTION.description": "将你结束时停的计数增加[blue]10[/blue]点。",
-  "TH_SAKUYA-RED_KING_POTION.title": "绯红之王",
-  "TH_SAKUYA-MANA_POTION.description": "回复24点[purple]TSP[/purple]。",
-  "TH_SAKUYA-MANA_POTION.title": "魔法药水",
-  "TH_SAKUYA-ALL_POTION.description": "获得[blue]2[/blue]人工制品。",
-  "TH_SAKUYA-ALL_POTION.title": "万能药",
-  "TH_SAKUYA-BLOOD_BAR_POTION.description": "获得{Energy:energyIcons()}。\n回复你最大生命值的[green]{HealPercent}%[/green]。\n将一张[red]猩红诅咒[/red]加入你的[gold]牌组[/gold]，如果你有[red]猩红诅咒[/red]，改为将其阶段降低[blue]1[/blue]。",
-  "TH_SAKUYA-BLOOD_BAR_POTION.title": "血酿"
+  "TH_YUYUKO-WOMAN_DRUNK.description": "你的所有[gold]手牌[/gold]在本回合内的耗能变为[blue]0[/blue]点。\n获得[blue]1[/blue]层[gold]混乱[/gold]。",
+  "TH_YUYUKO-WOMAN_DRUNK.title": "伶人醉",
+  "TH_YUYUKO-ECLOSION_POTION.selectionScreenPrompt": "选择任意张牌[gold]变化[/gold]。",
+  "TH_YUYUKO-ECLOSION_POTION.description": "[gold]变化[/gold]你[gold]手牌[/gold]中的任意张牌，并将其本回合内首次打出前的耗能置为[blue]0[/blue]点。",
+  "TH_YUYUKO-ECLOSION_POTION.title": "羽化药水",
+  "TH_YUYUKO-LIQUID_SPRING.description": "获得[blue]6[/blue]层[gold]春度[/gold]。",
+  "TH_YUYUKO-LIQUID_SPRING.title": "液态春光",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.description": "将[blue]3[/blue]张[gold]落樱[/gold]加入你的[gold]手牌[/gold]。",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.title": "罐装樱花",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.description": "随机[gold]引蝶[/gold][blue]4[/blue]。",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.title": "诱蝶药剂"
 }

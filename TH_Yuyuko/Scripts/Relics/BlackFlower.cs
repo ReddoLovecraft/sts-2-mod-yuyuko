@@ -1,0 +1,72 @@
+using BaseLib.Abstracts;
+using BaseLib.Utils;
+using MegaCrit.Sts2.Core.CardSelection;
+using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Entities.Powers;
+using MegaCrit.Sts2.Core.Entities.Relics;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
+using MegaCrit.Sts2.Core.ValueProps;
+using Patchoulib.Scrpits.Main;
+using TH_Yuyuko.Scripts.Main;
+using TH_Yuyuko.Scrpits.Cards;
+using TH_Yuyuko.Scrpits.Powers;
+
+namespace TH_Yuyuko.Scrpits.Relics
+{
+[Pool(typeof(YuyukoRelicPool))]
+public class BlackFlower : CustomRelicModel
+{
+    public override RelicRarity Rarity => RelicRarity.Rare;
+	public override string PackedIconPath => $"res://TH_Yuyuko/Artworks/Relics/{Id.Entry}.png";
+    protected override string PackedIconOutlinePath => $"res://TH_Yuyuko/Artworks/Relics/Outlines/{Id.Entry}.png";
+    protected override string BigIconPath => $"res://TH_Yuyuko/Artworks/Relics/{Id.Entry}.png";
+	    protected override IEnumerable<IHoverTip> ExtraHoverTips => (new IHoverTip[1]
+        {
+		  HoverTipFactory.ForEnergy(this)
+        });
+		protected override IEnumerable<DynamicVar> CanonicalVars =>
+     [
+     new EnergyVar(1)
+     ];
+	bool flag=true;
+	public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
+    {
+            if (player != base.Owner)
+            {
+                return;
+            }
+           this.flag=true;
+    }
+   	public override decimal ModifyPowerAmountGiven(PowerModel power, Creature giver, decimal amount, Creature? target, CardModel? cardSource)
+	{
+        if(power.Type!=PowerType.Debuff)
+        {
+            return amount;
+        }
+		if (cardSource == null)
+		{
+			return amount;
+		}
+        if(giver!=base.Owner.Creature)
+        {
+			return amount;
+		}
+        if(!this.flag)
+        {
+            return amount;
+        }
+        this.flag=false;
+        Flash();
+		PlayerCmd.GainEnergy(1,Owner);
+		return amount;
+	}
+}
+}

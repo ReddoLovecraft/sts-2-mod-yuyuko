@@ -1,3 +1,4 @@
+using BaseLib.Abstracts;
 using BaseLib.Extensions;
 using BaseLib.Utils;
 using Godot;
@@ -7,6 +8,7 @@ using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Patchoulib.Scrpits.Main;
@@ -17,13 +19,14 @@ using static TH_Yuyuko.Scripts.VFX.YuyukoVfxManager;
 namespace TH_Yuyuko.Scripts.Cards
 {
 [Pool(typeof(YuyukoCardPool))]
-public class NoLifeDream : YuyukoCardModel
+public class NoLifeDream : YuyukoCardModel,ITranscendenceCard
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(8, ValueProp.Move),new CardsVar(4)];
 		protected override IEnumerable<IHoverTip> ExtraHoverTips => (new IHoverTip[1]
     {
         HoverTipFactory.FromPower<DemisePower>()
     });
+	public CardModel GetTranscendenceTransformedCard() => ModelDb.Card<NoLifeTicket>();
 	public NoLifeDream() : base(2, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 	{
 	}

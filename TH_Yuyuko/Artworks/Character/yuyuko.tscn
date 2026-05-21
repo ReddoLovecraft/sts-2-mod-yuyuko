@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://r0414536uk3u"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://ccrpyayxlctu2" path="res://TH_Yuyuko/Artworks/Character/normal/uuz.tres" id="1_my4gj"]
+
+[node name="Yuyuko" type="Node2D"]
+
+[node name="Visuals" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("1_my4gj")
+preview_skin = "default"
+preview_animation = "idle"
+preview_frame = false
+preview_time = 0.0
+unique_name_in_owner = true
+scale = Vector2(3, 3)
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -88.0
+offset_top = -321.0
+offset_right = 122.0
+offset_bottom = -2.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true

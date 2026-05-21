@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://sl68or54obr"
+path="res://.godot/imported/yuyuko_skeleton.skel-77f3ea1039c91cd7694bf8ceebf9e0d9.spskel"
+
+[deps]
+
+source_file="res://TH_Yuyuko/Artworks/Character/normal/yuyuko_skeleton.skel"
+dest_files=["res://.godot/imported/yuyuko_skeleton.skel-77f3ea1039c91cd7694bf8ceebf9e0d9.spskel"]
+
+[params]
+

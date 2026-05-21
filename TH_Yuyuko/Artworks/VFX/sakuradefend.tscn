@@ -1,0 +1,137 @@
+[gd_scene load_steps=16 format=3 uid="uid://dstyd8icokofx"]
+
+[ext_resource type="Material" path="res://TH_Yuyuko/Artworks/VFX/canvas_item_material_additive_shared.tres" id="1_ip0dd"]
+[ext_resource type="Texture2D" uid="uid://cxq4qmspst6dq" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa000.png" id="2_nl17v"]
+[ext_resource type="Texture2D" uid="uid://6uq6dp313wfr" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa001.png" id="3_rmeb0"]
+[ext_resource type="Texture2D" uid="uid://3eys7mwalqck" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa002.png" id="4_btv8p"]
+[ext_resource type="Texture2D" uid="uid://d1hgtnq0j0ttu" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa003.png" id="5_khowj"]
+[ext_resource type="Texture2D" uid="uid://wyxlunfqa1js" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa004.png" id="6_k46k4"]
+[ext_resource type="Texture2D" uid="uid://lyvbbdnf1cly" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa005.png" id="7_ncv4v"]
+[ext_resource type="Texture2D" uid="uid://hc802h42wesi" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa006.png" id="8_yqjeb"]
+[ext_resource type="Texture2D" uid="uid://cdgun0w5u40or" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa007.png" id="9_jh1cj"]
+[ext_resource type="Texture2D" uid="uid://dwa8ys6whvh8d" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa008.png" id="10_n81gq"]
+[ext_resource type="Texture2D" uid="uid://dxpqsoi3x7uwh" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa009.png" id="11_cj2o3"]
+[ext_resource type="Texture2D" uid="uid://dlwv863qlabvf" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/bariaAa010.png" id="12_6gdc6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_base"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_nl17v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rmeb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_btv8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_khowj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_k46k4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ncv4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yqjeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jh1cj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_n81gq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_cj2o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6gdc6")
+}],
+"loop": false,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Animation" id="Animation_play"]
+resource_name = "play"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = false
+tracks/0/path = NodePath("Visual:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-120, 0), Vector2(0, 0), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Visual/Sprite:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [&"default"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Visual/Sprite:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Visual/Sprite:frame")
+tracks/3/interp = 0
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.042857144, 0.08571429, 0.12857144, 0.17142858, 0.21428573, 0.25714287, 0.3, 0.34285715, 0.3857143, 0.42857143, 0.47142857, 0.51428574, 0.55714285),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_base"]
+_data = {
+&"play": SubResource("Animation_play")
+}
+
+[node name="AncientEffect" type="Node2D"]
+
+[node name="Visual" type="Node2D" parent="."]
+position = Vector2(32.999985, -102.99999)
+scale = Vector2(2.5, 2.5)
+
+[node name="Sprite" type="AnimatedSprite2D" parent="Visual"]
+self_modulate = Color(0.7927481, 0.00049497664, 0.79369855, 1)
+material = ExtResource("1_ip0dd")
+sprite_frames = SubResource("SpriteFrames_base")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_base")
+}
+autoplay = "play"
+speed_scale = 1.15
+
+[node name="LifeTimer" type="Timer" parent="."]
+wait_time = 0.6
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="LifeTimer" to="." method="queue_free"]

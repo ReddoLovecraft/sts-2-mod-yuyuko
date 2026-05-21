@@ -1,0 +1,12 @@
+{
+  "TH_SAKUYA-RED_TEA.description": "回复[blue]6[/blue]点生命。\n获得{Energy:energyIcons()}并抽[blue]1[/blue]张牌。",
+  "TH_SAKUYA-RED_TEA.title": "红魔馆红茶",
+  "TH_SAKUYA-RED_KING_POTION.description": "将你结束时停的计数增加[blue]10[/blue]点。",
+  "TH_SAKUYA-RED_KING_POTION.title": "绯红之王",
+  "TH_SAKUYA-MANA_POTION.description": "回复24点[purple]TSP[/purple]。",
+  "TH_SAKUYA-MANA_POTION.title": "魔法药水",
+  "TH_SAKUYA-ALL_POTION.description": "获得[blue]2[/blue]人工制品。",
+  "TH_SAKUYA-ALL_POTION.title": "万能药",
+  "TH_SAKUYA-BLOOD_BAR_POTION.description": "获得{Energy:energyIcons()}。\n回复你最大生命值的[green]{HealPercent}%[/green]。\n将一张[red]猩红诅咒[/red]加入你的[gold]牌组[/gold]，如果你有[red]猩红诅咒[/red]，改为将其阶段降低[blue]1[/blue]。",
+  "TH_SAKUYA-BLOOD_BAR_POTION.title": "血酿"
+}

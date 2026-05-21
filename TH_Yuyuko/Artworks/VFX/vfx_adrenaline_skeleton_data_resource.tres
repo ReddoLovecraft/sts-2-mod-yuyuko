@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://bs872msngpvi8"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://cffrq5lbu57qu" path="res://TH_Yuyuko/Artworks/VFX/adrenaline.atlas" id="1_ey1f1"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://b42cpcakgt6r1" path="res://TH_Yuyuko/Artworks/VFX/adrenaline.skel" id="2_3e6fa"]
+
+[resource]
+atlas_res = ExtResource("1_ey1f1")
+skeleton_file_res = ExtResource("2_3e6fa")

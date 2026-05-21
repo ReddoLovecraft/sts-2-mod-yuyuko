@@ -1,0 +1,10 @@
+{
+	"BUTTERFLY.title": "蝶",
+	"BUTTERFLY.description": "一种在你造成伤害时触发指定效果，然后将层数减少[blue]1[/blue]层的状态。\n分为[green]返魂蝶[/green]、[purple]死蝶[/purple]和[blue]灵蝶[/blue]。",
+	"SUMMON_BUTTERFLY.title": "引蝶X",
+	"SUMMON_BUTTERFLY.description": "生成X个[gold]蝶[/gold]。",
+	"ETHEREAL.title": "虚无",
+	"ETHEREAL.description": "如果该牌在回合结束时仍在你的手牌中，则将其移出本场战斗。",
+	"SPRING.title": "春度",
+	"SPRING.description": "在你的回合开始时，给予所有敌人等同于层数的[gold]死意[/gold]，然后根据层数触发额外效果：\n[blue]9[/blue]+：随机[gold]引蝶[/gold]1/2层数。\n[blue]19[/blue]+：给予所有敌人1/4层数层[gold]消亡[/gold]。\n[blue]29[/blue]+：强化所有[gold]蝶[/gold]的效果。\n[blue]49[/blue]+：将1/10层数张[gold]落樱[/gold]放入你的手中。\n[blue]74[/blue]+：[gold]死意[/gold]层数将不再减少。\n[blue]99[/blue]+：[gold]死意[/gold]层数将改为增加[blue]66%[/blue]。"
+}

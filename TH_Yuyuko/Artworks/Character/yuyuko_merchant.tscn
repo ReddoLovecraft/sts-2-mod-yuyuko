@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwi1fpakrpej1"]
+
+[ext_resource type="Script" uid="uid://cssve7iwoo1pc" path="res://TH_Yuyuko/Artworks/Character/YuyukoShop.cs" id="1_gsp4q"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://ccrpyayxlctu2" path="res://TH_Yuyuko/Artworks/Character/normal/uuz.tres" id="2_58tq1"]
+
+[node name="sakuya_merchant" type="Node2D"]
+script = ExtResource("1_gsp4q")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("2_58tq1")
+preview_skin = "default"
+preview_animation = "relaxed_loop"
+preview_frame = false
+preview_time = 0.0
+scale = Vector2(3, 3)

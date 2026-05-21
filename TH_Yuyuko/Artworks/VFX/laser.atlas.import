@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c3wm40voqn1ur"
+path="res://.godot/imported/laser.atlas-58d1d219bea959f8dd5f18c782185e36.spatlas"
+
+[deps]
+
+source_file="res://TH_Yuyuko/Artworks/VFX/laser.atlas"
+dest_files=["res://.godot/imported/laser.atlas-58d1d219bea959f8dd5f18c782185e36.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

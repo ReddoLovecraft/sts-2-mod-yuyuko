@@ -1,0 +1,74 @@
+[gd_scene load_steps=5 format=3 uid="uid://x3c7r1n9h5v2"]
+
+[ext_resource type="Texture2D" uid="uid://bskfc7dyrnohx" path="res://TH_Yuyuko/Artworks/Character/Yuyuko.png" id="1_hemk1"]
+[ext_resource type="Texture2D" uid="uid://67kcnaxxvl5n" path="res://TH_Yuyuko/Artworks/Character/p2d.png" id="2_0nlfp"]
+[ext_resource type="Texture2D" uid="uid://dpqm4uc5yj2d7" path="res://TH_Yuyuko/Artworks/VFX/花瓣(petal)_爱给网_aigei_com.png" id="2_j7gyr"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_7v4s4"]
+blend_mode = 1
+
+[node name="Yuyuko_bg" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -307.0
+offset_right = 1984.0
+offset_bottom = 893.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.44705883, 0.49803922, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Icon" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1535.0
+offset_top = -764.0
+offset_right = 404.0
+offset_bottom = 399.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_hemk1")
+
+[node name="ash2" type="CPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_7v4s4")
+position = Vector2(1120, -129)
+amount = 90
+texture = ExtResource("2_j7gyr")
+lifetime = 17.0
+preprocess = 18.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(2000, 1)
+gravity = Vector2(0, 4)
+initial_velocity_min = 25.0
+initial_velocity_max = 40.0
+angular_velocity_min = -45.0
+angular_velocity_max = 45.0
+angle_min = 80.0
+angle_max = 100.0
+scale_amount_min = 0.25
+scale_amount_max = 0.5
+color = Color(1, 0.9, 0.98, 0.75)
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(721, 417)
+scale = Vector2(5.755162, 3.5317216)
+texture = ExtResource("2_0nlfp")

@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animpattern version="5">
+	<animation id="0" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="0" yoffset="0" duration="1" rendergroup="0"/>
+	</animation>
+	<animation id="1" index="0" loop="0">
+		<frame image="hitAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="2" index="0" loop="0">
+		<frame image="hitAb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAb011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="150" yscale="150" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="3" index="0" loop="0">
+		<frame image="hitAc001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="4" index="0" loop="0">
+		<frame image="hitAc001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="5" index="0" loop="0">
+		<frame image="hitBa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBa010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="6" index="0" loop="0">
+		<frame image="hitBb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBb014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="7" index="0" loop="0">
+		<frame image="hitBc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc015.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc016.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc017.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="8" index="0" loop="0">
+		<frame image="hitBc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc015.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc016.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitBc017.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="660" yscale="660" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="9" index="0" loop="0">
+		<frame image="hitBa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBa010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="32" xoffset="64" yoffset="16" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+	</animation>
+	<animation id="10" index="0" loop="0">
+		<frame image="hitBb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBb014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+	</animation>
+	<animation id="11" index="0" loop="0">
+		<frame image="hitBc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc015.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc016.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc017.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+	</animation>
+	<animation id="12" index="0" loop="0">
+		<frame image="hitBc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc015.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc016.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+		<frame image="hitBc017.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="64" xoffset="64" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="660" yscale="660" vertflip="0" horzflip="0" angle="90"/>
+		</frame>
+	</animation>
+	<animation id="13" index="0" loop="0">
+		<frame image="hitCa001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa013.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa014.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa015.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa016.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa017.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa018.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCa019.bmp" index="18" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="14" index="0" loop="0">
+		<frame image="hitCb001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb013.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb014.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb015.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb016.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb017.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitCb018.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="15" index="0" loop="0">
+		<frame image="hitDa001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa013.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa014.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa015.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa016.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa017.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa018.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDa019.bmp" index="18" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="96" xoffset="48" yoffset="48" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="16" index="0" loop="0">
+		<frame image="hitDb001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb013.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb014.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb015.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb016.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb017.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+		<frame image="hitDb018.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="180" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="38" index="0" loop="0">
+		<frame image="hitAc001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc008.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc009.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc010.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc011.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="hitAc012.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="300" yscale="300" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="50" index="0" loop="0">
+		<frame image="guardAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardAa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="51" index="0" loop="0">
+		<frame image="guardBa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="guardBa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="38" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="52" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="32" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffff00" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="53" index="0" loop="0">
+		<frame image="borderCrash000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="54" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="55" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="32" yoffset="32" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="128" yoffset="128" duration="10" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="56" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="128" yoffset="128" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="128" yoffset="128" duration="20" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="57" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="-7" yoffset="15" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="-7" yoffset="15" duration="15" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="58" index="0" loop="0">
+		<frame image="boundAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="59" index="0" loop="0">
+		<frame image="boundAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="60" index="0" loop="0">
+		<frame image="ringAc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="-80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="61" index="0" loop="0">
+		<frame image="Recover000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="62" index="0" loop="0">
+		<frame image="ringAc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="63" index="0" loop="0">
+		<frame image="superJump000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="superJump010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="96" texheight="128" xoffset="48" yoffset="113" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="64" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="65" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="66" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="67" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="68" index="0" loop="0">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="500" yscale="500" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="69" index="0" loop="1">
+		<frame image="guardCancelAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="70" index="0" loop="1">
+		<frame image="guardCancelAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="71" index="0" loop="1">
+		<frame image="LEVELUP000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="10" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="600" yscale="600" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="LEVELUP001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="100" index="0" loop="0">
+		<frame image="ringAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="101" index="0" loop="0">
+		<frame image="partAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="16" yoffset="16" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="102" index="0" loop="0">
+		<frame image="partAb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="0" yoffset="16" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="103" index="0" loop="0">
+		<frame image="partAc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="0" yoffset="16" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="104" index="0" loop="0">
+		<frame image="ringAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="105" index="0" loop="0">
+		<frame image="ringAb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="106" index="0" loop="0">
+		<frame image="ringAc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="31" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="50" yscale="50" vertflip="0" horzflip="70" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="107" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="32" yoffset="32" duration="15" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="108" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="128" yoffset="128" duration="45" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="109" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="128" yoffset="128" duration="45" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="110" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="8" yoffset="128" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="111" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="64" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="112" index="0" loop="1">
+		<frame image="comboLimit.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="comboLimit.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="113" index="0" loop="1">
+		<frame image="Recover000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="25" yscale="25" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="115" index="0" loop="0">
+		<frame image="spellCall005.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall006.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall007.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall008.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall009.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall010.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall011.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall012.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall013.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall014.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall015.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall016.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall017.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall018.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall019.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall020.bmp" index="15" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall021.bmp" index="16" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall022.bmp" index="17" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall023.bmp" index="18" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall024.bmp" index="19" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall025.bmp" index="20" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall026.bmp" index="21" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall027.bmp" index="22" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall028.bmp" index="23" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall029.bmp" index="24" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall030.bmp" index="25" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall031.bmp" index="26" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall032.bmp" index="27" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall033.bmp" index="28" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall034.bmp" index="29" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall035.bmp" index="30" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall036.bmp" index="31" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall037.bmp" index="32" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall038.bmp" index="33" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall039.bmp" index="34" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall040.bmp" index="35" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall041.bmp" index="36" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall042.bmp" index="37" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall043.bmp" index="38" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall044.bmp" index="39" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall045.bmp" index="40" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="spellCall046.bmp" index="41" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="400" yscale="400" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="116" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="133" yoffset="145" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffff00" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="123" index="0" loop="0">
+		<frame image="dashLine000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="16" xoffset="84" yoffset="8" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="-90"/>
+		</frame>
+	</animation>
+	<animation id="124" index="0" loop="0">
+		<frame image="dashLine000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="16" xoffset="84" yoffset="8" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="125" index="0" loop="0">
+		<frame image="dashRing000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="44" yoffset="64" duration="30" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="126" index="0" loop="0">
+		<frame image="dashBa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="dashBa010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="121" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="127" index="0" loop="0">
+		<frame image="smokeBa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeBa012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="216" yoffset="247" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="128" index="0" loop="0">
+		<frame image="smokeAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="234" yoffset="115" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="234" yoffset="116" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="234" yoffset="116" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="234" yoffset="115" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="228" yoffset="116" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="237" yoffset="116" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="295" yoffset="116" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="295" yoffset="117" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="295" yoffset="116" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="295" yoffset="113" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="294" yoffset="111" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeAa011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="128" xoffset="294" yoffset="112" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="129" index="0" loop="0">
+		<frame image="smokeDa001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa002.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="1" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa003.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa004.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa005.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa006.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa007.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="102" yoffset="104" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="smokeDa007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="107" yoffset="106" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffff80" xscale="190" yscale="190" vertflip="0" horzflip="0" angle="2"/>
+		</frame>
+		<frame image="smokeDa007.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="109" yoffset="109" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffff40" xscale="185" yscale="185" vertflip="0" horzflip="0" angle="2"/>
+		</frame>
+	</animation>
+	<animation id="130" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="234" yoffset="119" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="234" yoffset="119" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="234" yoffset="119" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="234" yoffset="117" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="228" yoffset="119" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="237" yoffset="119" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="bigOrb000.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="295" yoffset="118" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="131" index="0" loop="1">
+		<frame image="LEVEL001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="150" texheight="34" xoffset="75" yoffset="16" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="132" index="0" loop="1">
+		<frame image="LEVEL002.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="151" texheight="34" xoffset="75" yoffset="16" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="133" index="0" loop="1">
+		<frame image="LEVEL003.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="151" texheight="34" xoffset="75" yoffset="16" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="134" index="0" loop="1">
+		<frame image="LEVELMAX.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="194" texheight="34" xoffset="97" yoffset="16" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="135" index="0" loop="1">
+		<frame image="weatherCall000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="136" index="0" loop="1">
+		<frame image="weatherCall001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="137" index="0" loop="1">
+		<frame image="comboLimitB.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="comboLimitB.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="138" index="0" loop="0">
+		<frame image="breakAttack000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack001.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack002.bmp" index="2" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack003.bmp" index="3" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack004.bmp" index="4" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack005.bmp" index="5" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack006.bmp" index="6" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack007.bmp" index="7" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack008.bmp" index="8" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack009.bmp" index="9" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack010.bmp" index="10" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack011.bmp" index="11" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack012.bmp" index="12" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack013.bmp" index="13" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="breakAttack014.bmp" index="14" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="139" index="0" loop="1">
+		<frame image="invincible.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="194" texheight="36" xoffset="97" yoffset="16" duration="2" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="140" index="0" loop="1">
+		<frame image="ringAc000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="ringAc000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="256" texheight="256" xoffset="128" yoffset="128" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffc0" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="141" index="0" loop="1">
+		<frame image="flashAuraBlue000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="210" yscale="210" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+		<frame image="flashAuraBlue000.bmp" index="1" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="142" index="0" loop="1">
+		<frame image="counterAa000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="2" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="82" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="150" index="0" loop="1">
+		<frame image="flashAuraG000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="151" index="0" loop="1">
+		<frame image="powerAuraG000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="256" xoffset="64" yoffset="129" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="152" index="0" loop="1">
+		<frame image="flashAuraY000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="153" index="0" loop="1">
+		<frame image="powerAuraY000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="256" xoffset="64" yoffset="129" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="154" index="0" loop="1">
+		<frame image="flashAuraBlue000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="200" yscale="200" vertflip="80" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="155" index="0" loop="1">
+		<frame image="powerAuraB000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="256" xoffset="64" yoffset="129" duration="1" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="160" index="0" loop="1">
+		<frame image="cardCrash000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="161" index="0" loop="1">
+		<frame image="cardCrash001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="162" index="0" loop="1">
+		<frame image="cardCrash002.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="32" yoffset="68" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="163" index="0" loop="1">
+		<frame image="cardCrash003.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="32" yoffset="68" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="164" index="0" loop="1">
+		<frame image="cardCrash004.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="64" texheight="128" xoffset="32" yoffset="68" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="165" index="0" loop="1">
+		<frame image="LEVELUP001.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="128" texheight="128" xoffset="64" yoffset="64" duration="60" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="200" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="16" yoffset="16" duration="9999" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="201" index="0" loop="0">
+		<frame image="smallOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="16" texheight="16" xoffset="8" yoffset="8" duration="9999" rendergroup="2">
+			<blend mode="0" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="202" index="0" loop="0">
+		<frame image="lightEffect000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="16" yoffset="16" duration="9999" rendergroup="2">
+			<blend mode="1" color="ffffffff" xscale="100" yscale="100" vertflip="0" horzflip="0" angle="0"/>
+		</frame>
+	</animation>
+	<animation id="300" index="0" loop="0">
+		<frame image="bigOrb000.bmp" index="0" unknown="0" xtexoffset="0" ytexoffset="0" texwidth="32" texheight="32" xoffset="0" yoffset="0" duration="1" rendergroup="0"/>
+	</animation>
+</animpattern>

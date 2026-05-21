@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cxpstss2mg26w"
+path="res://.godot/imported/yuyuko_skeleton.atlas-156a742ed21e1b055b4e9294de589a60.spatlas"
+
+[deps]
+
+source_file="res://TH_Yuyuko/Artworks/Character/normal/yuyuko_skeleton.atlas"
+dest_files=["res://.godot/imported/yuyuko_skeleton.atlas-156a742ed21e1b055b4e9294de589a60.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

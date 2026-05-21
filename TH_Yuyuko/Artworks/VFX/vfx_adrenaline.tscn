@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6oni2vq4ewg6"]
+
+[ext_resource type="Script" path="res://TH_Yuyuko/Artworks/VFX/NYuyukoVfxSpine.cs" id="1_2aqy4"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://bs872msngpvi8" path="res://TH_Yuyuko/Artworks/VFX/vfx_adrenaline_skeleton_data_resource.tres" id="2_dj2ik"]
+
+[node name="VfxAdrenaline" type="Node2D"]
+script = ExtResource("1_2aqy4")
+_animation = "adrenaline"
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("2_dj2ik")
+preview_skin = "Default"
+preview_animation = "adrenaline"
+preview_frame = false
+preview_time = 0.0
+modulate = Color(0.6894843, 0.00036974042, 0.6923522, 1)
+self_modulate = Color(0.42728978, 0.00013779834, 0.4323361, 1)
+show_behind_parent = true

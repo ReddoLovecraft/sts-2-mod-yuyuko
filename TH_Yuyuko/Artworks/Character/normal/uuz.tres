@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://ccrpyayxlctu2"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://cxpstss2mg26w" path="res://TH_Yuyuko/Artworks/Character/normal/yuyuko_skeleton.atlas" id="1_g0421"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://sl68or54obr" path="res://TH_Yuyuko/Artworks/Character/normal/yuyuko_skeleton.skel" id="2_lkvgd"]
+
+[resource]
+atlas_res = ExtResource("1_g0421")
+skeleton_file_res = ExtResource("2_lkvgd")

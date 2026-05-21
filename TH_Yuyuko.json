@@ -1,0 +1,11 @@
+{
+  "id": "TH_Yuyuko",
+  "name": "西行寺幽幽子",
+  "author": "Reddo",
+  "description": "增加了一个来自东方Project的新角色，西行寺幽幽子。",
+  "version": "0.9",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [ "BaseLib", "Patchoulib" ],
+  "affects_gameplay": true
+}

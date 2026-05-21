@@ -1,0 +1,377 @@
+
+yuyuko_skeleton.png
+size: 1213,289
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Attack/attack-_0000_spellIa000.png
+  rotate: false
+  xy: 958, 84
+  size: 66, 100
+  orig: 105, 140
+  offset: 0, 40
+  index: -1
+Attack/attack-_0001_spellIa001.png
+  rotate: true
+  xy: 1111, 174
+  size: 61, 99
+  orig: 105, 140
+  offset: 0, 41
+  index: -1
+Attack/attack-_0002_spellIa002.png
+  rotate: false
+  xy: 634, 185
+  size: 96, 102
+  orig: 105, 140
+  offset: 0, 38
+  index: -1
+Attack/attack-_0003_spellIa003.png
+  rotate: false
+  xy: 2, 6
+  size: 105, 139
+  orig: 105, 140
+  offset: 0, 1
+  index: -1
+Attack/attack-_0004_spellIa004.png
+  rotate: false
+  xy: 95, 148
+  size: 93, 139
+  orig: 105, 140
+  offset: 0, 1
+  index: -1
+Attack/attack-_0005_spellIa005.png
+  rotate: false
+  xy: 2, 147
+  size: 91, 140
+  orig: 105, 140
+  offset: 0, 0
+  index: -1
+Attack/attack-_0006_spellIa006.png
+  rotate: false
+  xy: 109, 9
+  size: 85, 137
+  orig: 105, 140
+  offset: 0, 3
+  index: -1
+Attack/attack-_0007_spellIa007.png
+  rotate: false
+  xy: 190, 155
+  size: 60, 132
+  orig: 105, 140
+  offset: 0, 8
+  index: -1
+Attack/attack-_0008_spellIa008.png
+  rotate: false
+  xy: 240, 49
+  size: 57, 104
+  orig: 105, 140
+  offset: 0, 36
+  index: -1
+Cast/cast-_0000_spellCall000.png
+  rotate: false
+  xy: 526, 79
+  size: 51, 103
+  orig: 128, 128
+  offset: 8, 5
+  index: -1
+Cast/cast-_0001_spellCall001.png
+  rotate: false
+  xy: 789, 185
+  size: 50, 102
+  orig: 128, 128
+  offset: 8, 5
+  index: -1
+Cast/cast-_0002_spellCall002.png
+  rotate: false
+  xy: 1007, 187
+  size: 50, 100
+  orig: 128, 128
+  offset: 8, 5
+  index: -1
+Cast/cast-_0003_spellCall003.png
+  rotate: false
+  xy: 1026, 85
+  size: 50, 100
+  orig: 128, 128
+  offset: 8, 5
+  index: -1
+Cast/cast-_0004_spellCall004.png
+  rotate: false
+  xy: 732, 185
+  size: 55, 102
+  orig: 128, 128
+  offset: 5, 6
+  index: -1
+Cast/cast-_0005_spellCall005.png
+  rotate: true
+  xy: 597, 8
+  size: 69, 101
+  orig: 128, 128
+  offset: 31, 8
+  index: -1
+Cast/cast-_0006_spellCall006.png
+  rotate: true
+  xy: 393, 5
+  size: 72, 100
+  orig: 128, 128
+  offset: 30, 9
+  index: -1
+Cast/cast-_0007_spellCall007.png
+  rotate: true
+  xy: 495, 5
+  size: 72, 100
+  orig: 128, 128
+  offset: 30, 9
+  index: -1
+Cast/cast-_0008_spellCall008.png
+  rotate: true
+  xy: 700, 10
+  size: 69, 101
+  orig: 128, 128
+  offset: 31, 8
+  index: -1
+Cast/cast-_0009_spellCall009.png
+  rotate: false
+  xy: 676, 81
+  size: 58, 102
+  orig: 128, 128
+  offset: 4, 6
+  index: -1
+Idle/idle-_0000_stand000.png
+  rotate: false
+  xy: 415, 79
+  size: 54, 103
+  orig: 64, 128
+  offset: 6, 9
+  index: -1
+Idle/idle-_0001_stand001.png
+  rotate: false
+  xy: 426, 184
+  size: 53, 103
+  orig: 64, 128
+  offset: 7, 10
+  index: -1
+Idle/idle-_0002_stand002.png
+  rotate: false
+  xy: 481, 184
+  size: 52, 103
+  orig: 64, 128
+  offset: 8, 11
+  index: -1
+Idle/idle-_0003_stand003.png
+  rotate: false
+  xy: 535, 184
+  size: 51, 103
+  orig: 64, 128
+  offset: 9, 12
+  index: -1
+Idle/idle-_0004_stand004.png
+  rotate: false
+  xy: 579, 79
+  size: 51, 103
+  orig: 64, 128
+  offset: 9, 12
+  index: -1
+Idle/idle-_0005_stand005.png
+  rotate: false
+  xy: 471, 79
+  size: 53, 103
+  orig: 64, 128
+  offset: 7, 11
+  index: -1
+Idle/idle-_0006_stand006.png
+  rotate: false
+  xy: 252, 184
+  size: 57, 103
+  orig: 64, 128
+  offset: 4, 10
+  index: -1
+Idle/idle-_0007_stand007.png
+  rotate: false
+  xy: 311, 184
+  size: 56, 103
+  orig: 64, 128
+  offset: 5, 9
+  index: -1
+Idle/idle-_0008_stand008.png
+  rotate: false
+  xy: 358, 79
+  size: 55, 103
+  orig: 64, 128
+  offset: 5, 8
+  index: -1
+Idle/idle-_0009_stand009.png
+  rotate: false
+  xy: 369, 184
+  size: 55, 103
+  orig: 64, 128
+  offset: 5, 8
+  index: -1
+Rest/rest-_0000_sit002.png
+  rotate: false
+  xy: 934, 14
+  size: 65, 67
+  orig: 128, 128
+  offset: 34, 1
+  index: -1
+Rest/rest-_0001_sit003.png
+  rotate: false
+  xy: 1047, 17
+  size: 65, 66
+  orig: 128, 128
+  offset: 34, 1
+  index: -1
+Rest/rest-_0002_sit004.png
+  rotate: false
+  xy: 867, 14
+  size: 65, 67
+  orig: 128, 128
+  offset: 34, 0
+  index: -1
+Rest/rest-_0003_sit005.png
+  rotate: false
+  xy: 803, 11
+  size: 62, 68
+  orig: 128, 128
+  offset: 2, 0
+  index: -1
+Summon/summon-_0000_shotAa000.png
+  rotate: false
+  xy: 793, 81
+  size: 50, 102
+  orig: 64, 128
+  offset: 8, 11
+  index: -1
+Summon/summon-_0001_shotAa001.png
+  rotate: false
+  xy: 1059, 187
+  size: 50, 100
+  orig: 64, 128
+  offset: 8, 11
+  index: -1
+Summon/summon-_0002_shotAa002.png
+  rotate: true
+  xy: 1111, 237
+  size: 50, 100
+  orig: 64, 128
+  offset: 8, 11
+  index: -1
+Summon/summon-_0003_shotAa003.png
+  rotate: false
+  xy: 736, 81
+  size: 55, 102
+  orig: 64, 128
+  offset: 5, 12
+  index: -1
+Summon/summon-_0004_shotAa004.png
+  rotate: false
+  xy: 902, 83
+  size: 54, 101
+  orig: 64, 128
+  offset: 5, 14
+  index: -1
+Summon/summon-_0005_shotAa005.png
+  rotate: false
+  xy: 841, 186
+  size: 55, 101
+  orig: 64, 128
+  offset: 5, 14
+  index: -1
+Summon/summon-_0006_shotAa006.png
+  rotate: false
+  xy: 845, 83
+  size: 55, 101
+  orig: 64, 128
+  offset: 5, 14
+  index: -1
+Summon/summon-_0007_shotAa007.png
+  rotate: false
+  xy: 898, 186
+  size: 55, 101
+  orig: 64, 128
+  offset: 5, 14
+  index: -1
+Summon/summon-_0008_shotAa008.png
+  rotate: false
+  xy: 299, 79
+  size: 57, 103
+  orig: 64, 128
+  offset: 5, 12
+  index: -1
+die/die-_0000_down000.png
+  rotate: true
+  xy: 301, 2
+  size: 75, 41
+  orig: 128, 64
+  offset: 26, 3
+  index: -1
+die/die-_0001_down001.png
+  rotate: true
+  xy: 1001, 15
+  size: 67, 44
+  orig: 128, 64
+  offset: 31, 4
+  index: -1
+die/die-_0002_down002.png
+  rotate: true
+  xy: 344, 3
+  size: 74, 47
+  orig: 128, 64
+  offset: 25, 5
+  index: -1
+die/die-_0003_down003.png
+  rotate: false
+  xy: 1114, 67
+  size: 97, 50
+  orig: 128, 64
+  offset: 16, 4
+  index: -1
+die/die-_0004_down004.png
+  rotate: true
+  xy: 955, 186
+  size: 101, 50
+  orig: 128, 64
+  offset: 14, 4
+  index: -1
+die/die-_0005_down005.png
+  rotate: true
+  xy: 196, 48
+  size: 105, 42
+  orig: 128, 64
+  offset: 14, 4
+  index: -1
+die/die-_0006_down006.png
+  rotate: true
+  xy: 632, 79
+  size: 103, 42
+  orig: 128, 64
+  offset: 18, 3
+  index: -1
+die/die-_0007_down007.png
+  rotate: false
+  xy: 196, 2
+  size: 103, 44
+  orig: 128, 64
+  offset: 18, 1
+  index: -1
+die/die-_0008_down008.png
+  rotate: true
+  xy: 588, 184
+  size: 103, 44
+  orig: 128, 64
+  offset: 18, 1
+  index: -1
+hit/hit-_0000_guardBUpper000.png
+  rotate: true
+  xy: 1114, 10
+  size: 55, 95
+  orig: 64, 128
+  offset: 4, 7
+  index: -1
+hit/hit-_0001_guardBUpper001.png
+  rotate: true
+  xy: 1114, 119
+  size: 53, 97
+  orig: 64, 128
+  offset: 5, 6
+  index: -1

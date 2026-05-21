@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://TH_Yuyuko/Artworks/VFX/yuyuko_energy_counter.tscn" id="1_energy_counter"]
+
+[node name="YuyukoEnergyCounter" instance=ExtResource("1_energy_counter")]

@@ -1,0 +1,207 @@
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="Script" path="res://TH_Yuyuko/Artworks/VFX/NYuyukoEnergyCounter.cs" id="1_energy_counter_script"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/objectBa000.png" id="2_layer1_orb"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/objectBa000.png" id="3_glow_tex"]
+[ext_resource type="Material" path="res://TH_Yuyuko/Artworks/VFX/canvas_item_material_additive_shared.tres" id="4_additive_mat"]
+[ext_resource type="FontVariation" path="res://themes/kreon_bold_shared.tres" id="5_base_font"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/bulletAa000.png" id="5_butterfly_tex"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa000.png" id="6_fx_000"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa001.png" id="7_fx_001"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa002.png" id="8_fx_002"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa003.png" id="9_fx_003"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa004.png" id="10_fx_004"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa005.png" id="11_fx_005"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa006.png" id="12_fx_006"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa007.png" id="13_fx_007"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa008.png" id="14_fx_008"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa009.png" id="15_fx_009"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa010.png" id="16_fx_010"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa011.png" id="17_fx_011"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa012.png" id="18_fx_012"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa013.png" id="19_fx_013"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/EnergySheet/bulletGa014.png" id="20_fx_014"]
+
+[sub_resource type="FontVariation" id="FontVariation_kreon_bold_shared_font"]
+base_font = ExtResource("5_base_font")
+spacing_glyph = 2
+
+[sub_resource type="Gradient" id="Gradient_butterfly_fade"]
+offsets = PackedFloat32Array(0, 1)
+colors = PackedColorArray(1, 0.55, 0.7, 0.9, 1, 0.55, 0.7, 0)
+
+[node name="YuyukoEnergyCounter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 128.0
+offset_bottom = 128.0
+pivot_offset = Vector2(64, 64)
+script = ExtResource("1_energy_counter_script")
+
+[node name="EnergyVfxBack" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(64, 64)
+
+[node name="BackParticles" type="CPUParticles2D" parent="EnergyVfxBack"]
+material = ExtResource("4_additive_mat")
+emitting = true
+amount = 6
+lifetime = 1.6
+preprocess = 1.6
+explosiveness = 0.25
+randomness = 1.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(10, 10)
+gravity = Vector2(0, 0)
+initial_velocity_min = 10.0
+initial_velocity_max = 30.0
+radial_accel_min = 160.0
+radial_accel_max = 260.0
+tangential_accel_min = -220.0
+tangential_accel_max = 220.0
+angular_velocity_min = -180.0
+angular_velocity_max = 180.0
+angle_min = 0.0
+angle_max = 360.0
+damping_min = 6.0
+damping_max = 14.0
+scale_amount_min = 0.08
+scale_amount_max = 0.14
+color_ramp = SubResource("Gradient_butterfly_fade")
+texture = ExtResource("5_butterfly_tex")
+
+[node name="Layers" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Layer1" type="TextureRect" parent="Layers"]
+unique_name_in_owner = true
+z_index = -5
+z_as_relative = false
+material = ExtResource("4_additive_mat")
+use_parent_material = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_right = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_layer1_orb")
+pivot_offset = Vector2(64, 64)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RotationLayers" type="Control" parent="Layers"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+z_index = 1
+z_as_relative = false
+
+[node name="Layer2" type="TextureRect" parent="Layers/RotationLayers"]
+unique_name_in_owner = true
+material = ExtResource("4_additive_mat")
+use_parent_material = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64, 64)
+mouse_filter = 2
+modulate = Color(1, 0.55, 0.7, 0.55)
+texture = ExtResource("3_glow_tex")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Layer3" type="TextureRect" parent="Layers/RotationLayers"]
+unique_name_in_owner = true
+material = ExtResource("4_additive_mat")
+use_parent_material = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64, 64)
+mouse_filter = 2
+modulate = Color(1, 0.55, 0.7, 1)
+texture = ExtResource("6_fx_000")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EnergyVfxFront" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(64, 64)
+
+[node name="FrontParticles" type="CPUParticles2D" parent="EnergyVfxFront"]
+material = ExtResource("4_additive_mat")
+emitting = true
+amount = 5
+lifetime = 1.4
+preprocess = 1.4
+explosiveness = 0.25
+randomness = 1.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(10, 10)
+gravity = Vector2(0, 0)
+initial_velocity_min = 12.0
+initial_velocity_max = 34.0
+radial_accel_min = 180.0
+radial_accel_max = 280.0
+tangential_accel_min = -240.0
+tangential_accel_max = 240.0
+angular_velocity_min = -180.0
+angular_velocity_max = 180.0
+angle_min = 0.0
+angle_max = 360.0
+damping_min = 6.0
+damping_max = 14.0
+scale_amount_min = 0.07
+scale_amount_max = 0.12
+color_ramp = SubResource("Gradient_butterfly_fade")
+texture = ExtResource("5_butterfly_tex")
+
+[node name="Label" type="Label" parent="."]
+z_index = 50
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -3.0
+offset_right = 2.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 0.96862745)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0.95, 0.25, 0.55, 0.8)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 16
+theme_override_constants/shadow_outline_size = 16
+theme_override_fonts/font = SubResource("FontVariation_kreon_bold_shared_font")
+theme_override_font_sizes/font_size = 24
+text = "3/3"
+horizontal_alignment = 1
+vertical_alignment = 1

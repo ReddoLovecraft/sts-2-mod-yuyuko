@@ -1,0 +1,188 @@
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="Material" path="res://TH_Yuyuko/Artworks/VFX/canvas_item_material_additive_shared.tres" id="1_add"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/bulletAa000.png" id="2_butterfly"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletAd000.png" id="3_beam"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb000.png" id="4_bb000"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb001.png" id="5_bb001"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb002.png" id="6_bb002"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb003.png" id="7_bb003"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb004.png" id="8_bb004"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb005.png" id="9_bb005"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb006.png" id="10_bb006"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb007.png" id="11_bb007"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb008.png" id="12_bb008"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb009.png" id="13_bb009"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb010.png" id="14_bb010"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb011.png" id="15_bb011"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb012.png" id="16_bb012"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb013.png" id="17_bb013"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/touhoueffect/remi/spellBulletBb014.png" id="18_bb014"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_outline"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_bb000")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bb001")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bb002")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bb003")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bb004")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bb005")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bb006")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_bb007")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bb008")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_bb009")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_bb010")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bb011")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_bb012")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_bb013")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bb014")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Animation" id="Animation_orbit"]
+resource_name = "orbit"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual/Butterflies/B1:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-10, -100), Vector2(90, -12), Vector2(-10, 100), Vector2(-110, -12), Vector2(-10, -100)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Visual/Butterflies/B2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(10, 100), Vector2(-90, 12), Vector2(10, -100), Vector2(110, 12), Vector2(10, 100)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Visual/Butterflies/B3:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.26666668, 0.53333336, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -120), Vector2(0, 120), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_outline"]
+resource_name = "outline"
+length = 0.625
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Visual/Outline:frame")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.041666668, 0.083333336, 0.125, 0.16666667, 0.20833334, 0.25, 0.29166666, 0.33333334, 0.375, 0.41666666, 0.45833334, 0.5, 0.5416667, 0.5833333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_base"]
+_data = {
+&"orbit": SubResource("Animation_orbit"),
+&"outline": SubResource("Animation_outline")
+}
+
+[node name="swallowtail_death_gun" type="Node2D"]
+
+[node name="Visual" type="Node2D" parent="."]
+scale = Vector2(2.5, 2.5)
+
+[node name="Beam" type="Sprite2D" parent="Visual"]
+material = ExtResource("1_add")
+self_modulate = Color(0.93, 0.25, 0.62, 0.85)
+texture = ExtResource("3_beam")
+position = Vector2(120, 0)
+scale = Vector2(2.2, 0.9)
+
+[node name="Outline" type="AnimatedSprite2D" parent="Visual"]
+material = ExtResource("1_add")
+self_modulate = Color(0.93, 0.25, 0.62, 1)
+sprite_frames = SubResource("SpriteFrames_outline")
+animation = &"default"
+playing = true
+
+[node name="Butterflies" type="Node2D" parent="Visual"]
+
+[node name="B1" type="Sprite2D" parent="Visual/Butterflies"]
+material = ExtResource("1_add")
+self_modulate = Color(0.93, 0.25, 0.62, 1)
+texture = ExtResource("2_butterfly")
+scale = Vector2(0.32, 0.32)
+
+[node name="B2" type="Sprite2D" parent="Visual/Butterflies"]
+material = ExtResource("1_add")
+self_modulate = Color(0.93, 0.25, 0.62, 1)
+texture = ExtResource("2_butterfly")
+scale = Vector2(0.32, 0.32)
+
+[node name="B3" type="Sprite2D" parent="Visual/Butterflies"]
+material = ExtResource("1_add")
+self_modulate = Color(0.93, 0.25, 0.62, 0.9)
+texture = ExtResource("2_butterfly")
+scale = Vector2(0.28, 0.28)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_base")
+}
+autoplay = "orbit"
+
+[node name="OutlinePlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_base")
+}
+autoplay = "outline"

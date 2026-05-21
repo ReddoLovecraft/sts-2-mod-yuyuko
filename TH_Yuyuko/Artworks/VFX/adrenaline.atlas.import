@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cffrq5lbu57qu"
+path="res://.godot/imported/adrenaline.atlas-ddf1087442ce345bde4abfeac3d0402b.spatlas"
+
+[deps]
+
+source_file="res://TH_Yuyuko/Artworks/VFX/adrenaline.atlas"
+dest_files=["res://.godot/imported/adrenaline.atlas-ddf1087442ce345bde4abfeac3d0402b.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

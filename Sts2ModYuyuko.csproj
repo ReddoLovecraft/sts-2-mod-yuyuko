@@ -1,0 +1,48 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+	<PropertyGroup>
+		<AssemblyName>TH_Yuyuko</AssemblyName>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>true</ImplicitUsings>
+		<LangVersion>12.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+		<Sts2Dir>C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2</Sts2Dir>
+		<Sts2DataDir>$(Sts2Dir)\data_sts2_windows_x86_64</Sts2DataDir>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="sts2">
+			<HintPath>$(Sts2DataDir)/sts2.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="0Harmony">
+			<HintPath>$(Sts2DataDir)/0Harmony.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="BaseLib">
+			<HintPath>$(Sts2Dir)/mods/BaseLib/BaseLib.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	<Reference Include="Patchoulib">
+			<HintPath>$(Sts2Dir)/mods/Patchoulib/Patchoulib.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<Target Name="Copy Mod" AfterTargets="PostBuildEvent" Condition="'$(SkipCopyMod)' != 'true'">
+		<Message Text="Copying mod to Slay the Spire 2 mods folder..." Importance="high" />
+		<MakeDir Directories="$(Sts2Dir)\mods\" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(Sts2Dir)\mods\$(MSBuildProjectName)\" />
+		<Copy SourceFiles="TH_Yuyuko.json" DestinationFolder="$(Sts2Dir)/mods/$(MSBuildProjectName)/" />
+		<Copy SourceFiles="$(MSBuildProjectDirectory)\TH_Yuyuko.pck" DestinationFiles="$(Sts2Dir)\mods\$(MSBuildProjectName)\TH_Yuyuko.pck" Condition="Exists('$(MSBuildProjectDirectory)\TH_Yuyuko.pck')" />
+		<Copy SourceFiles="$(MSBuildProjectDirectory)\$(AssemblyName).pck" DestinationFiles="$(Sts2Dir)\mods\$(MSBuildProjectName)\TH_Yuyuko.pck" Condition="Exists('$(MSBuildProjectDirectory)\$(AssemblyName).pck')" />
+	</Target>
+
+	<Target Name="GodotExportAssemblyAlias" AfterTargets="Publish" Condition="'$(AssemblyName)' != '$(MSBuildProjectName)'">
+		<Copy SourceFiles="$(PublishDir)$(AssemblyName).dll" DestinationFiles="$(PublishDir)$(MSBuildProjectName).dll" SkipUnchangedFiles="true" />
+		<Copy SourceFiles="$(PublishDir)$(AssemblyName).pdb" DestinationFiles="$(PublishDir)$(MSBuildProjectName).pdb" SkipUnchangedFiles="true" Condition="Exists('$(PublishDir)$(AssemblyName).pdb')" />
+		<Copy SourceFiles="$(PublishDir)$(AssemblyName).deps.json" DestinationFiles="$(PublishDir)$(MSBuildProjectName).deps.json" SkipUnchangedFiles="true" Condition="Exists('$(PublishDir)$(AssemblyName).deps.json')" />
+	</Target>
+</Project>

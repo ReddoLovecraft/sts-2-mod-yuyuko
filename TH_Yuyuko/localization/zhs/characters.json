@@ -1,0 +1,17 @@
+{
+  "TH_YUYUKO-YUYUKO_CHARACTER.aromaPrinciple": "[sine][red]……我要吃——饭！[/red][/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.alive.endTurnPing": "……饿啊……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.dead.endTurnPing": "……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierDescription": "幽幽子的卡牌现在会出现在奖励和商店中。",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierTitle": "幽幽子卡牌",
+  "TH_YUYUKO-YUYUKO_CHARACTER.description": "天衣无缝的亡灵，能够不受抵抗地引诱死亡，\n并能很简单地将敌人置于死地。",
+  "TH_YUYUKO-YUYUKO_CHARACTER.eventDeathPrevention": "……不可以！我还有好多东西没吃过……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.goldMonologue": "[sine]……这些钱可以买好多吃的……[/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.possessiveAdjective": "她的",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounObject": "她",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounPossessive": "她的",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounSubject": "她",
+  "TH_YUYUKO-YUYUKO_CHARACTER.title": "西行寺幽幽子",
+  "TH_YUYUKO-YUYUKO_CHARACTER.titleObject": "幽幽子",
+  "TH_YUYUKO-YUYUKO_CHARACTER.unlockText": "用[pink]{Prerequisite}[/pink]进行一局游戏来解锁这个角色。"
+}

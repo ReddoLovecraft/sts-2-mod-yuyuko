@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dun6rw4mxs0hb"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://c3wm40voqn1ur" path="res://TH_Yuyuko/Artworks/VFX/laser.atlas" id="1_jbbec"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://dsbf5524afgjf" path="res://TH_Yuyuko/Artworks/VFX/laser.skel" id="2_xb1h5"]
+
+[resource]
+atlas_res = ExtResource("1_jbbec")
+skeleton_file_res = ExtResource("2_xb1h5")

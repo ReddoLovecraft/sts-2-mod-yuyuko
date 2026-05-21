@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Material" path="res://TH_Yuyuko/Artworks/VFX/canvas_item_material_additive_shared.tres" id="1_add"]
+[ext_resource type="Texture2D" path="res://TH_Yuyuko/Artworks/VFX/soulbody.png" id="2_tex"]
+
+[node name="soulbody_effect" type="Node2D"]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+material = ExtResource("1_add")
+texture = ExtResource("2_tex")

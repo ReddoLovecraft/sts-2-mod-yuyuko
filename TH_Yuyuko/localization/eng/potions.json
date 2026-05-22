@@ -1,0 +1,13 @@
+{
+  "TH_YUYUKO-WOMAN_DRUNK.description": "All cards in your [gold]Hand[/gold] cost [blue]0[/blue] energy this turn.\nGain [blue]1[/blue] [gold]Confusion[/gold].",
+  "TH_YUYUKO-WOMAN_DRUNK.title": "Drunken Performer",
+  "TH_YUYUKO-ECLOSION_POTION.selectionScreenPrompt": "Choose any number of cards to [gold]Transform[/gold].",
+  "TH_YUYUKO-ECLOSION_POTION.description": "[gold]Transform[/gold] any number of cards in your [gold]Hand[/gold]; they cost [blue]0[/blue] the first time played this turn.",
+  "TH_YUYUKO-ECLOSION_POTION.title": "Eclosion Potion",
+  "TH_YUYUKO-LIQUID_SPRING.description": "Gain [blue]6[/blue] [gold]Spring[/gold].",
+  "TH_YUYUKO-LIQUID_SPRING.title": "Liquid Spring",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.description": "Add [blue]3[/blue] [gold]Falling Cherry[/gold] to your [gold]Hand[/gold].",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.title": "Jar of Cherry Blossoms",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.description": "Randomly [gold]Summon Butterfly[/gold] [blue]4[/blue].",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.title": "Butterfly Lure"
+}

@@ -1,0 +1,10 @@
+{
+	"BUTTERFLY.title": "Butterfly",
+	"BUTTERFLY.description": "A state that triggers a specific effect when you deal damage, then reduces stacks by [blue]1[/blue].\nDivided into [green]Soul Butterfly[/green], [purple]Death Butterfly[/purple], and [blue]Spirit Butterfly[/blue].",
+	"SUMMON_BUTTERFLY.title": "Summon Butterfly X",
+	"SUMMON_BUTTERFLY.description": "Generate X [gold]Butterflies[/gold].",
+	"ETHEREAL.title": "Ethereal",
+	"ETHEREAL.description": "If this card is still in your hand at the end of your turn, it is removed from combat.",
+	"SPRING.title": "Spring",
+	"SPRING.description": "At the start of your turn, apply [gold]Death Wish[/gold] equal to the stack count to all enemies, then trigger extra effects based on the stacks:\n[blue]9[/blue]+: Randomly [gold]Summon Butterfly[/gold] 1/2 of stacks.\n[blue]19[/blue]+: Apply 1/4 of stacks [gold]Demise[/gold] to all enemies.\n[blue]29[/blue]+: Enhance all [gold]Butterfly[/gold] effects.\n[blue]49[/blue]+: Put 1/10 of stacks [gold]Falling Cherry[/gold] into your hand.\n[blue]74[/blue]+: [gold]Death Wish[/gold] stacks no longer decrease.\n[blue]99[/blue]+: [gold]Death Wish[/gold] stacks will instead increase by [blue]66%[/blue]."
+}

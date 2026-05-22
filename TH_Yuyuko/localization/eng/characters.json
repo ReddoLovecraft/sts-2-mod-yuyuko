@@ -1,0 +1,17 @@
+{
+  "TH_YUYUKO-YUYUKO_CHARACTER.aromaPrinciple": "[sine][red]...I want to eat![/red][/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.alive.endTurnPing": "...Hungry...",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.dead.endTurnPing": "...",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierDescription": "Yuyuko's cards now appear in rewards and shops.",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierTitle": "Yuyuko Cards",
+  "TH_YUYUKO-YUYUKO_CHARACTER.description": "A seamless ghost, able to lure death without resistance,\nand easily put enemies to their end.",
+  "TH_YUYUKO-YUYUKO_CHARACTER.eventDeathPrevention": "...No! There's still so much I haven't eaten...",
+  "TH_YUYUKO-YUYUKO_CHARACTER.goldMonologue": "[sine]...With this money I can buy lots of food...[/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.possessiveAdjective": "Her",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounObject": "her",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounPossessive": "her",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounSubject": "She",
+  "TH_YUYUKO-YUYUKO_CHARACTER.title": "Yuyuko Saigyouji",
+  "TH_YUYUKO-YUYUKO_CHARACTER.titleObject": "Yuyuko",
+  "TH_YUYUKO-YUYUKO_CHARACTER.unlockText": "Play a game with [pink]{Prerequisite}[/pink] to unlock this character."
+}

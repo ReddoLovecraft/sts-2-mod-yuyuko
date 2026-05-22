@@ -30,7 +30,7 @@ namespace TH_Yuyuko.Scripts.Cards
 		{
 			await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 			List<CardModel> etherealCards = new List<CardModel>();
-			foreach (PileType pileType in new[] { PileType.Deck, PileType.Draw, PileType.Hand, PileType.Discard, PileType.Exhaust, PileType.Play })
+			foreach (PileType pileType in new[] { PileType.Draw, PileType.Hand, PileType.Discard, PileType.Exhaust })
 			{
 				foreach (CardModel card in pileType.GetPile(base.Owner).Cards)
 				{

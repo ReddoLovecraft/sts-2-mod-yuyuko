@@ -1,0 +1,17 @@
+{
+  "TH_YUYUKO-YUYUKO_CHARACTER.aromaPrinciple": "[sine][red]……ごはん――！[/red][/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.alive.endTurnPing": "……おなかすいた……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.banter.dead.endTurnPing": "……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierDescription": "幽々子のカードが報酬やショップに出現するようになる。",
+  "TH_YUYUKO-YUYUKO_CHARACTER.cardsModifierTitle": "幽々子カード",
+  "TH_YUYUKO-YUYUKO_CHARACTER.description": "天衣無縫の亡霊。抵抗なく死を誘い、\n簡単に敵を死に至らしめることができる。",
+  "TH_YUYUKO-YUYUKO_CHARACTER.eventDeathPrevention": "……ダメ！まだ食べてないものがたくさんある……",
+  "TH_YUYUKO-YUYUKO_CHARACTER.goldMonologue": "[sine]……このお金でたくさん食べ物が買える……[/sine]",
+  "TH_YUYUKO-YUYUKO_CHARACTER.possessiveAdjective": "彼女の",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounObject": "彼女",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounPossessive": "彼女の",
+  "TH_YUYUKO-YUYUKO_CHARACTER.pronounSubject": "彼女",
+  "TH_YUYUKO-YUYUKO_CHARACTER.title": "西行寺幽々子",
+  "TH_YUYUKO-YUYUKO_CHARACTER.titleObject": "幽々子",
+  "TH_YUYUKO-YUYUKO_CHARACTER.unlockText": "[pink]{Prerequisite}[/pink]で1ゲームプレイしてこのキャラクターをアンロック。"
+}

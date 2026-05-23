@@ -1,3 +1,4 @@
+using BaseLib.Config;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Commands;
@@ -33,6 +34,7 @@ namespace TH_Yuyuko.Scripts.Main
     public static void Init()
     {
          TryRegisterGodotScriptAssembly();
+		ModConfigRegistry.Register("TH_Yuyuko", new YuyukoModConfig());
         _harmony = new Harmony("TH_Yuyuko");
         _harmony.PatchAll();
         Log.Debug("Yuyuko mod has been loaded successfully");

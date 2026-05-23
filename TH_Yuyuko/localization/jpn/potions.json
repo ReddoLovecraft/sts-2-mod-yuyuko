@@ -1,0 +1,13 @@
+{
+  "TH_YUYUKO-WOMAN_DRUNK.description": "あなたの全ての[gold]手牌[/gold]のこのターン中のコストが[blue]0[/blue]になる。\n[blue]1[/blue]層の[gold]混乱[/gold]を得る。",
+  "TH_YUYUKO-WOMAN_DRUNK.title": "伶人酔い",
+  "TH_YUYUKO-ECLOSION_POTION.selectionScreenPrompt": "任意の枚数のカードを選んで[gold]変化[/gold]させる。",
+  "TH_YUYUKO-ECLOSION_POTION.description": "[gold]手札[/gold]の任意の枚数のカードを[gold]変化[/gold]させ、そのカードのこのターン中に初めて使用するまでのコストを[blue]0[/blue]にする。",
+  "TH_YUYUKO-ECLOSION_POTION.title": "羽化薬水",
+  "TH_YUYUKO-LIQUID_SPRING.description": "[blue]6[/blue]層の[gold]春度[/gold]を得る。",
+  "TH_YUYUKO-LIQUID_SPRING.title": "液体春光",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.description": "[blue]3[/blue]枚の[gold]落櫻[/gold]を手札に加える。",
+  "TH_YUYUKO-BOTTLE_OF_SAKURA.title": "瓶詰め桜花",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.description": "ランダムに[gold]誘蝶[/gold][blue]4[/blue]。",
+  "TH_YUYUKO-BUTTERFLY_GATHER_POTION.title": "誘蝶薬剤"
+}

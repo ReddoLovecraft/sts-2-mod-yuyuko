@@ -48,7 +48,7 @@ namespace TH_Yuyuko.Scripts.Cards
 			int butterflies = unblockedDamage / 4;
 			if (butterflies > 0)
 			{
-				await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, butterflies);
+				await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, butterflies, base.Owner.RunState.Rng.CombatOrbGeneration);
 			}
 		}
 

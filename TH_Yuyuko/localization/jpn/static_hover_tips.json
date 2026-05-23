@@ -1,0 +1,10 @@
+{
+	"BUTTERFLY.title": "蝶",
+	"BUTTERFLY.description": "あなたがダメージを与えた時に指定の効果を発動し、その後層数を[blue]1[/blue]減らす状態。\n[green]返魂蝶[/green]、[purple]死蝶[/purple]、[blue]霊蝶[/blue]の3種類がある。",
+	"SUMMON_BUTTERFLY.title": "誘蝶X",
+	"SUMMON_BUTTERFLY.description": "X個の[gold]蝶[/gold]を生成する。",
+	"ETHEREAL.title": "虚无",
+	"ETHEREAL.description": "このカードがターン終了時までに手札に残っている場合、この戦闘から取り除かれる。",
+	"SPRING.title": "春度",
+	"SPRING.description": "あなたのターン開始時、全ての敵に層数と同じだけの[gold]死意[/gold]を与え、さらに層数に応じて追加効果を発動する：\n[blue]9[/blue]+：ランダムに[gold]誘蝶[/gold]1/2層数。\n[blue]19[/blue]+：全ての敵に1/4層数の[gold]消滅[/gold]を与える。\n[blue]29[/blue]+：全ての[gold]蝶[/gold]の効果を強化する。\n[blue]49[/blue]+：1/10層数の[gold]落櫻[/gold]を手札に加える。\n[blue]74[/blue]+：[gold]死意[/gold]の層数が減少しなくなる。\n[blue]99[/blue]+：[gold]死意[/gold]の層数が[blue]66%[/blue]増加するようになる。"
+}

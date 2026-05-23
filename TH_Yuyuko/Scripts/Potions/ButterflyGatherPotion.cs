@@ -29,6 +29,6 @@ public sealed class ButterflyGatherPotion : CustomPotionModel
     public override string? CustomPackedOutlinePath => "res://TH_Yuyuko/Artworks/Potions/Outlines/BUTTERFLY_GATHER_POTION.png"; 
     protected override async Task OnUse(PlayerChoiceContext choiceContext, Creature? target)
     {
-       await ToolBox.SummonButterfliesRandomly(choiceContext,Owner.Creature,4);
+       await ToolBox.SummonButterfliesRandomly(choiceContext, Owner.Creature, 4, Owner.RunState.Rng.CombatOrbGeneration);
     }
 }

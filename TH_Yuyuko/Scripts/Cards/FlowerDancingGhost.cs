@@ -17,7 +17,7 @@ namespace TH_Yuyuko.Scripts.Cards
 	{
 		public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Ethereal,CardKeyword.Innate];
 
-		protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(2), new EnergyVar(1)];
+		protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1), new EnergyVar(1)];
 
 		protected override IEnumerable<IHoverTip> ExtraHoverTips => [base.EnergyHoverTip, HoverTipFactory.FromKeyword(CardKeyword.Ethereal)];
 

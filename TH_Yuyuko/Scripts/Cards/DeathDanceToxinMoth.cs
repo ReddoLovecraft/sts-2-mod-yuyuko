@@ -32,7 +32,7 @@ public class DeathDanceToxinMoth : YuyukoCardModel
 	
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
 	{
-		await ToolBox.SummonButterfliesRandomly(choiceContext,Owner.Creature,this.DynamicVars.Cards.IntValue);
+		await ToolBox.SummonButterfliesRandomly(choiceContext, Owner.Creature, this.DynamicVars.Cards.IntValue, Owner.RunState.Rng.CombatOrbGeneration);
 		await PowerCmd.Apply<ToxinMothPower>(Owner.Creature,this.DynamicVars.Cards.IntValue,Owner.Creature,this);
 	}
 	protected override void OnUpgrade()

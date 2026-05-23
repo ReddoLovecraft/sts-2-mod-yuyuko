@@ -79,6 +79,10 @@ namespace TH_Yuyuko.Scripts.Main
                 return 0;
             }
 
+            if (rng == null && owner.CombatState != null && owner.Player?.RunState != null)
+            {
+                rng = owner.Player.RunState.Rng.CombatOrbGeneration;
+            }
             rng ??= Rng.Chaotic;
             int consumed = 0;
 
@@ -123,6 +127,10 @@ namespace TH_Yuyuko.Scripts.Main
                 return;
             }
 
+            if (rng == null && owner.CombatState != null && owner.Player?.RunState != null)
+            {
+                rng = owner.Player.RunState.Rng.CombatOrbGeneration;
+            }
             rng ??= Rng.Chaotic;
             int death = 0;
             int soul = 0;

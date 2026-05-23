@@ -42,7 +42,7 @@ namespace TH_Yuyuko.Scripts.Cards
 			{
 				await CreatureCmd.GainBlock(base.Owner.Creature, blockPerHit, base.DynamicVars.Block.Props, cardPlay, fast: true);
 			}
-			await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, base.DynamicVars.Cards.IntValue, base.Owner.RunState?.Rng?.CombatCardSelection);
+			await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, base.DynamicVars.Cards.IntValue, base.Owner.RunState.Rng.CombatOrbGeneration);
 		}
 
 		protected override void OnUpgrade()

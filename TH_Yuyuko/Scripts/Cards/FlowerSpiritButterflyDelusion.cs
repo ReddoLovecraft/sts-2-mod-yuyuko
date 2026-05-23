@@ -63,7 +63,7 @@ public sealed class FlowerSpiritButterflyDelusion : YuyukoCardModel
 			}
 			await CardPileCmd.Add(card, PileType.Hand);
 		}
-		await ToolBox.ConsumeRandomButterflies(choiceContext, base.Owner.Creature, selected.Count);
+		await ToolBox.ConsumeRandomButterflies(choiceContext, base.Owner.Creature, selected.Count, base.Owner.RunState.Rng.CombatOrbGeneration);
 	}
 	protected override void OnUpgrade()
 	{

@@ -41,7 +41,7 @@ namespace TH_Yuyuko.Scripts.Cards
 
 			await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target).WithHitFx(null, null, "blunt_attack.mp3")
 		.WithHitVfxNode(target => YuyukoVfxManager.CreateProjectileToTarget("dream2", Owner.Creature, target, new Vector2(0f, -180f),  new Vector2(0f, -40f))).Execute(choiceContext);
-			await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, base.DynamicVars.Cards.IntValue, base.Owner.RunState?.Rng?.CombatCardSelection);
+			await ToolBox.SummonButterfliesRandomly(choiceContext, base.Owner.Creature, base.DynamicVars.Cards.IntValue, base.Owner.RunState.Rng.CombatOrbGeneration);
 		}
 
 		protected override void OnUpgrade()

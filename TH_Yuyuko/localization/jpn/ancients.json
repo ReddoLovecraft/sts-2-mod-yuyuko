@@ -1,0 +1,19 @@
+{
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.1-0r.char": "……ちょっとお腹すいたな~\nあ、そうだ…あなたは食べられる？",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.1-0r.next": "続ける",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.1-1r.ancient": "……何だと？",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.1-1r.next": "ひとくち！",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.1-2r.char": "……うーん、やっぱりやめる。歯ごたえがありそうであんまり美味しくなさそうだし~",
+
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.2-0r.ancient": "なぜお前はいつもまとわりつくんだ！",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.2-0r.next": "続ける",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.2-1r.char": "あら~そこまで怖がらなくてもいいじゃない？",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.2-1r.next": "続ける",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.2-2r.ancient": "……ある……",
+
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.0-0.ancient": "……また亡霊か？この塔にそんなに多くの亡霊がいた記憶はないんだが。",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.0-0.next": "続ける",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.0-1.char": "私は外から来たのよ~\n[green]妖夢[/green]がここには美味しいものがたくさんあるって言ってたから！",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.0-1.next": "続ける",
+  "THE_ARCHITECT.talk.TH_YUYUKO-YUYUKO_CHARACTER.0-2.ancient": "ここは観光地じゃないんだ。さっさと帰れ！"
+}

@@ -9,7 +9,9 @@ using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
+using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.TestSupport;
+using TH_Yuyuko.Scripts.Main;
 
 namespace TH_Yuyuko.Scrpits.Powers
 {
@@ -43,6 +45,12 @@ namespace TH_Yuyuko.Scrpits.Powers
 			return Task.CompletedTask;
 		}
 
+		public override Task AfterCombatEnd(CombatRoom room)
+		{
+			StopSnowOverlay();
+			return Task.CompletedTask;
+		}
+
 		public override async Task AfterCardPlayed(PlayerChoiceContext context, CardPlay cardPlay)
 		{
 			if (cardPlay.Card.Owner != base.Owner.Player)
@@ -65,6 +73,10 @@ namespace TH_Yuyuko.Scrpits.Powers
 
 		private void TryStartSnowOverlay()
 		{
+			if (!YuyukoModConfig.FlowerDancingSnowVfx)
+			{
+				return;
+			}
 			if (TestMode.IsOn || NCombatRoom.Instance == null)
 			{
 				return;

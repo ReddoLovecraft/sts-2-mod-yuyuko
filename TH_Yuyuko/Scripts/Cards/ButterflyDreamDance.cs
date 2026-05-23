@@ -40,7 +40,7 @@ public class ButterflyDreamDance : YuyukoCardModel
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
 	{
 		int num = ResolveEnergyXValue();
-		await ToolBox.SummonButterfliesRandomly(choiceContext, Owner.Creature, num);
+		await ToolBox.SummonButterfliesRandomly(choiceContext, Owner.Creature, num, Owner.RunState.Rng.CombatOrbGeneration);
 
 		var death = Owner.Creature.GetPower<ButterflyDeathPower>();
 		var soul = Owner.Creature.GetPower<ButterflySoulPower>();
@@ -87,7 +87,7 @@ public class ButterflyDreamDance : YuyukoCardModel
 					break;
 				}
 
-				int idx = Rng.Chaotic.NextInt(0, enemies.Count);
+				int idx = Owner.RunState.Rng.CombatTargets.NextInt(0, enemies.Count);
 				await TriggerAllKinds(enemies[idx]);
 			}
 		}

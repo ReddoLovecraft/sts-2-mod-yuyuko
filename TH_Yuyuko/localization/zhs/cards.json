@@ -89,7 +89,7 @@
   "TH_YUYUKO-TEMPTING_NECTAR.title": "诱灵的甘蜜",
   "TH_YUYUKO-TEMPTING_NECTAR.description": "获得{Cards:diff()}层[gold]虚弱[/gold]和[gold]脆弱[/gold]。\n获得{Energy:energyIcons()}。",
   "TH_YUYUKO-OTHERWORLD_KASUKA.title": "彼世的华胥",
-  "TH_YUYUKO-OTHERWORLD_KASUKA.description": "造成{Damage:diff()}点伤害。\n每当有非同名卡牌进入[gold]弃牌堆[/gold]或[gold]消耗牌堆[/gold]时，{IfUpgraded:show:将这张牌自动打出|将这张牌放入你的手中}。",
+  "TH_YUYUKO-OTHERWORLD_KASUKA.description": "造成{Damage:diff()}点伤害。\n每当有非同名卡牌或[gold]灵魂[/gold]进入[gold]弃牌堆[/gold]或[gold]消耗牌堆[/gold]时，{IfUpgraded:show:将这张牌自动打出|将这张牌放入你的手中}。",
   "TH_YUYUKO-GHOST_MELODY_FAKE_SPIRIT.title": "幽曲「伪灵」",
   "TH_YUYUKO-GHOST_MELODY_FAKE_SPIRIT.description": "选择一张[gold]手牌[/gold]，将{Cards:diff()}张此牌的[gold]虚无[/gold]复制品放入你的手中。",
   "TH_YUYUKO-GHOST_MELODY_FAKE_SPIRIT.selectionScreenPrompt": "选择一张[gold]手牌[/gold]。",

@@ -125,7 +125,7 @@ namespace TH_Yuyuko.Scrpits.Powers
 			int summonCount = Amount >= 10 ? Amount / 2 : 0;
 			if (summonCount > 0)
 			{
-				await ToolBox.SummonButterfliesRandomly(choiceContext, Owner, summonCount);
+				await ToolBox.SummonButterfliesRandomly(choiceContext, Owner, summonCount, Owner.Player.RunState.Rng.CombatOrbGeneration);
 			}
 			int demiseCount = Amount >= 20 ? Amount / 4 : 0;
 			if (demiseCount > 0)

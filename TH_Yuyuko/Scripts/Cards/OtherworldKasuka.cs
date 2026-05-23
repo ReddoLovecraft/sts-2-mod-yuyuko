@@ -10,6 +10,7 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.ValueProps;
 using TH_Yuyuko.Scripts.Main;
 using TH_Yuyuko.Scripts.VFX;
@@ -19,7 +20,9 @@ namespace TH_Yuyuko.Scripts.Cards
 	[Pool(typeof(YuyukoCardPool))]
 	public sealed class OtherworldKasuka : YuyukoCardModel
 	{
-		protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromKeyword(CardKeyword.Exhaust)];
+		protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromKeyword(CardKeyword.Exhaust),HoverTipFactory.FromCard<Soul>()];
+
+
 
 		protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4, ValueProp.Move)];
 
@@ -44,7 +47,7 @@ namespace TH_Yuyuko.Scripts.Cards
 			{
 				return;
 			}
-			if (card.Id == base.Id)
+			if (card is OtherworldKasuka || card is Soul)
 			{
 				return;
 			}

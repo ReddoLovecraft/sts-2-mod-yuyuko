@@ -15,6 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TH_Yuyuko.Scripts.Main;
 
 namespace TH_Yuyuko.Scrpits.Events;
 
@@ -34,7 +35,7 @@ public sealed class MeetEiki : CustomEventModel
 		{
 			return false;
 		}
-		return runState.Players.All(p => p.Deck.Cards.Count(c => c.IsRemovable) >= 3);
+		return runState.Players.All(p => p.Deck.Cards.Count(c => c.IsRemovable) >= 3)&&runState.Players.All(p => p.Character is YuyukoCharacter);
 	}
 
 	protected override Task BeforeEventStarted(bool isPreFinished)

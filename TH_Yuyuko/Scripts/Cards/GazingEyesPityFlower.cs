@@ -25,5 +25,9 @@ namespace TH_Yuyuko.Scripts.Cards
 			await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 			await PowerCmd.Apply<GazingEyesPityFlowerPower>(base.Owner.Creature, 1, base.Owner.Creature, this);
 		}
+		protected override void OnUpgrade()
+		{
+			this.AddKeyword(CardKeyword.Innate);
+		}
 	}
 }

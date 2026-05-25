@@ -2,6 +2,7 @@ using BaseLib.Config;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Logging;
@@ -13,6 +14,7 @@ using MegaCrit.Sts2.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using System.Reflection;
 using TH_Yuyuko.Scripts.Cards;
 namespace TH_Yuyuko.Scripts.Main
@@ -20,12 +22,15 @@ namespace TH_Yuyuko.Scripts.Main
     [ModInitializer("Init")]
     public class YuyukoInit
     {
-    private const string ModSfxPrefix = "mod_sfx://";
-    private static readonly Dictionary<string, float> GainOverrides = new()
+    internal const string ModSfxPrefix = "mod_sfx://";
+    private static readonly Dictionary<string, float> GainOverrides = new(StringComparer.OrdinalIgnoreCase)
 		{
-			["TH_Yuyuko/Artworks/SFX/characterselect.wav"] = 1.0f,
+			["TH_Yuyuko/Artworks/SFX/characterselect.wav"] = 0.7f,
+			["TH_Yuyuko/Artworks/SFX/summon.wav"] = 0.7f,
+			["TH_Yuyuko/Artworks/SFX/cast.wav"] = 0.9f,
 		};
     private const float DefaultGain = 0.45f;
+	private static readonly HashSet<string> _loggedSfx = new(StringComparer.OrdinalIgnoreCase);
         public static string ToModSfxPath(string localPath)
         {
             return ModSfxPrefix + localPath;
@@ -36,7 +41,7 @@ namespace TH_Yuyuko.Scripts.Main
          TryRegisterGodotScriptAssembly();
 		ModConfigRegistry.Register("TH_Yuyuko", new YuyukoModConfig());
         _harmony = new Harmony("TH_Yuyuko");
-        _harmony.PatchAll();
+        _harmony.PatchAll(typeof(YuyukoInit).Assembly);
         Log.Debug("Yuyuko mod has been loaded successfully");
     }
     private static void TryRegisterGodotScriptAssembly()
@@ -78,70 +83,33 @@ namespace TH_Yuyuko.Scripts.Main
             Log.Error($"Failed to register Godot scripts for TH_Yuyuko: {e}");
         }
     }
-    static IEnumerable<MethodBase> TargetMethods()
-		{
-			return typeof(NAudioManager)
-				.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static)
-				.Where(m =>
-				{
-					if (m.Name != "PlayOneShot")
-					{
-						return false;
-					}
 
-					ParameterInfo[] ps = m.GetParameters();
-					return ps.Length >= 1 && ps[0].ParameterType == typeof(string);
-				});
+	private static bool TryGetOverrideGain(string localPath, out float overrideGain)
+	{
+		if (GainOverrides.TryGetValue(localPath, out overrideGain))
+		{
+			return true;
 		}
 
-		static bool Prefix(MethodBase __originalMethod, object[] __args)
+		string fileName = Path.GetFileName(localPath);
+		if (!string.IsNullOrEmpty(fileName) && GainOverrides.TryGetValue(fileName, out overrideGain))
 		{
-			return HandlePlay(__originalMethod, __args);
+			return true;
 		}
 
-		public static bool HandlePlay(MethodBase __originalMethod, object[] __args)
-		{
-			if (__args.Length < 1 || __args[0] is not string path || !path.StartsWith(ModSfxPrefix))
-			{
-				return true;
-			}
+		overrideGain = default;
+		return false;
+	}
 
-			float volume = 1f;
-			ParameterInfo[] ps = __originalMethod.GetParameters();
-			for (int i = 1; i < __args.Length && i < ps.Length; i++)
-			{
-				if (__args[i] is float f && ps[i].ParameterType == typeof(float) && ps[i].Name != null && ps[i].Name.Contains("volume", StringComparison.OrdinalIgnoreCase))
-				{
-					volume = f;
-					break;
-				}
-			}
-			if (volume == 1f)
-			{
-				for (int i = 1; i < __args.Length; i++)
-				{
-					if (__args[i] is float f)
-					{
-						volume = f;
-					}
-				}
-			}
-
-			try
-			{
-				PlayModSfx(path, volume);
-			}
-			catch (System.Exception e)
-			{
-				Log.Error($"Failed to play mod sfx: {path}. Error: {e.Message}");
-			}
-
-			return false;
-		}
-
-		private static void PlayModSfx(string path, float volume)
+		internal static void PlayModSfx(string path, float volume)
 		{
 			string localPath = path.Substring(ModSfxPrefix.Length);
+			localPath = localPath.Replace('\\', '/').TrimStart('/');
+			if (localPath.StartsWith("res://", StringComparison.OrdinalIgnoreCase))
+			{
+				localPath = localPath.Substring("res://".Length).TrimStart('/');
+			}
+
 			string resPath = "res://" + localPath;
 			AudioStream? stream = ResourceLoader.Load<AudioStream>(resPath);
 			if (stream == null)
@@ -154,11 +122,21 @@ namespace TH_Yuyuko.Scripts.Main
 			player.Bus = FindSfxBusName();
 
 			float gain = DefaultGain;
-			if (GainOverrides.TryGetValue(localPath, out float overrideGain))
+			if (TryGetOverrideGain(localPath, out float overrideGain))
 			{
 				gain *= overrideGain;
 			}
-			player.VolumeDb = Mathf.LinearToDb(Mathf.Max(0.0001f, volume * gain));
+			float linearVolume = volume * gain;
+			if (linearVolume <= 0f || float.IsNaN(linearVolume) || float.IsInfinity(linearVolume))
+			{
+				player.QueueFree();
+				return;
+			}
+			player.VolumeDb = Mathf.LinearToDb(linearVolume);
+			if (_loggedSfx.Add(localPath))
+			{
+				Log.Debug($"mod_sfx '{localPath}' vol={volume} gain={gain} linear={linearVolume} db={player.VolumeDb} bus='{player.Bus}'");
+			}
 
 			if (NGame.Instance != null)
 			{
@@ -201,6 +179,110 @@ namespace TH_Yuyuko.Scripts.Main
 		}
     
     }
+
+	[HarmonyPatch(typeof(NAudioManager))]
+	internal static class YuyukoModSfxPatches
+	{
+		[HarmonyPrefix]
+		[HarmonyPriority(Priority.First)]
+		[HarmonyPatch(nameof(NAudioManager.PlayOneShot), new Type[] { typeof(string), typeof(float) })]
+		private static bool PlayOneShot_Simple_Prefix(string path, float volume)
+		{
+			if (path == null || !path.StartsWith(YuyukoInit.ModSfxPrefix, StringComparison.Ordinal))
+			{
+				return true;
+			}
+
+			try
+			{
+				YuyukoInit.PlayModSfx(path, volume);
+			}
+			catch (Exception e)
+			{
+				Log.Error($"Failed to play mod sfx: {path}. Error: {e.Message}");
+			}
+
+			return false;
+		}
+
+		[HarmonyPrefix]
+		[HarmonyPriority(Priority.First)]
+		[HarmonyPatch(nameof(NAudioManager.PlayOneShot), new Type[] { typeof(string), typeof(Dictionary<string, float>), typeof(float) })]
+		private static bool PlayOneShot_WithParams_Prefix(string path, Dictionary<string, float> parameters, float volume)
+		{
+			if (path == null || !path.StartsWith(YuyukoInit.ModSfxPrefix, StringComparison.Ordinal))
+			{
+				return true;
+			}
+
+			try
+			{
+				YuyukoInit.PlayModSfx(path, volume);
+			}
+			catch (Exception e)
+			{
+				Log.Error($"Failed to play mod sfx: {path}. Error: {e.Message}");
+			}
+
+			return false;
+		}
+	}
+
+	[HarmonyPatch(typeof(SfxCmd))]
+	internal static class YuyukoModSfxSfxCmdPatches
+	{
+		[HarmonyPrefix]
+		[HarmonyPriority(Priority.First)]
+		[HarmonyPatch(nameof(SfxCmd.Play), new Type[] { typeof(string), typeof(float) })]
+		private static bool Play_Prefix(string sfx, float volume)
+		{
+			if (sfx == null || !sfx.StartsWith(YuyukoInit.ModSfxPrefix, StringComparison.Ordinal))
+			{
+				return true;
+			}
+			if (NonInteractiveMode.IsActive || CombatManager.Instance.IsEnding)
+			{
+				return false;
+			}
+
+			try
+			{
+				YuyukoInit.PlayModSfx(sfx, volume);
+			}
+			catch (Exception e)
+			{
+				Log.Error($"Failed to play mod sfx: {sfx}. Error: {e.Message}");
+			}
+
+			return false;
+		}
+
+		[HarmonyPrefix]
+		[HarmonyPriority(Priority.First)]
+		[HarmonyPatch(nameof(SfxCmd.Play), new Type[] { typeof(string), typeof(string), typeof(float), typeof(float) })]
+		private static bool Play_WithParam_Prefix(string sfx, string param, float val, float volume)
+		{
+			if (sfx == null || !sfx.StartsWith(YuyukoInit.ModSfxPrefix, StringComparison.Ordinal))
+			{
+				return true;
+			}
+			if (NonInteractiveMode.IsActive || CombatManager.Instance.IsEnding)
+			{
+				return false;
+			}
+
+			try
+			{
+				YuyukoInit.PlayModSfx(sfx, volume);
+			}
+			catch (Exception e)
+			{
+				Log.Error($"Failed to play mod sfx: {sfx}. Error: {e.Message}");
+			}
+
+			return false;
+		}
+	}
 
 
 }
